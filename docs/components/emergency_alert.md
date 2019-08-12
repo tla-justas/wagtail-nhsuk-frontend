@@ -16,7 +16,7 @@ To include the emergency alert in your template, use the templatetag in your bas
 ## Direct use of the template
 
 ```django
-{% include "wagtailnhsukfrontend/emergency_alert" with title="National flu outbreak" content="There has been a national flu outbreak." %}
+{% include "wagtailnhsukfrontend/emergency_alert.html" with title="National flu outbreak" content="There has been a national flu outbreak." %}
 ```
 
 ### Template parameters
